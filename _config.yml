@@ -1,0 +1,17 @@
+# list each of the sidebar modules you want to include, in the order you want them to appear.
+# To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
+default_asides: [asides/github.html, asides/twitter.html, custom/asides/flickr.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+# Flickr Badge
+flickr_user: 12345678%12345   # user id, not username (find with http://idgettr.com)
+flickr_count: 3               # number of photos to show
+flickr_display: random        # random or latest
+flickr_size: m                # t (thumbnail), s (small square), m (medium)
+# source: user (all user's public photos), user_tag (user's tagged photos),
+# all (everyone's public photos), all_tag (all public photos tagged with tag)
+flickr_source: user
+flickr_tag:                   # set if flickr_source is set to user_tag or all_tag
